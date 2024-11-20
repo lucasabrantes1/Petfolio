@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="UseCases\NewFolder\**" />
+    <EmbeddedResource Remove="UseCases\NewFolder\**" />
+    <None Remove="UseCases\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Petfolio.Communication\Petfolio.Communication.csproj" />
   </ItemGroup>
 
